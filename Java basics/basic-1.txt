@@ -1,0 +1,11 @@
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+        Scanner scan=new Scanner(System.in);
+        System.out.println("Enter first string");
+        String str1=scan.next();
+        System.out.println("Enter second string");
+        String str2=scan.next();
+        System.out.println(str1+" Technologies "+str2);
+    }
+}

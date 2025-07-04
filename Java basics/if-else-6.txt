@@ -1,0 +1,18 @@
+import java.util.*;
+
+public class OddEvenCheck {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Enter : ");
+       char ch=scan.next().charAt(0);
+      
+       if(Character.isLowerCase(ch)){
+            System.out.print("Output: "
+            +Character.toUpperCase(ch));
+       }
+       else if(Character.isUpperCase(ch)){
+            System.out.print("Output: "+Character.toLowerCase(ch));
+       }
+       
+    }
+}

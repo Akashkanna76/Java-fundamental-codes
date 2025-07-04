@@ -1,0 +1,18 @@
+import java.util.*;
+
+public class OddEvenCheck {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Enter value: ");
+       char ch=scan.next().charAt(0);
+       if(Character.isLetter(ch)){
+           System.out.print("Alphabet");
+       }
+       else if(Character.isDigit(ch)){
+           System.out.print("Digit");
+       }
+       else{
+            System.out.print("Special Character");
+       }
+    }
+}
